@@ -17,7 +17,7 @@ import { GenresResponse } from '../models/genre.model';
 import { MoreInfosComponent } from '../pages/home/more-infos/more-infos.component';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { State } from '../models/state.model';
-import { environment } from '../../environments/environment';
+import { environment } from '../../environments/environment.development';
 
 @Injectable({
   providedIn: 'root',
