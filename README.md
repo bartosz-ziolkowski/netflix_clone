@@ -1,27 +1,22 @@
-# NetflixClone
+# Netflix Clone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.1.
+## Overview
+To practice Angular and external API communication, I implemented a clone of the popular streaming service Netflix. All data on the site is sourced from the public TMDB API. Movies and TV shows are categorized by genre, and users can read details about each movie by clicking on it. Additionally, there is a search feature that allows users to find movies by title.
 
-## Development server
+## Screenshots
+![alt text](https://res.cloudinary.com/dv7nhvy8e/image/upload/v1724601911/netflix/ohsjzlswbixnwkrlnqp6.png)
+![alt text](https://res.cloudinary.com/dv7nhvy8e/image/upload/v1724601911/netflix/govqmwsbxipjuyyrdbsp.png)
+![alt text](https://res.cloudinary.com/dv7nhvy8e/image/upload/v1724601911/netflix/wtymbimzqevbb3e4in5w.png)
+![alt text](https://res.cloudinary.com/dv7nhvy8e/image/upload/v1724601911/netflix/s9xglngn9mhlbsrmhhwt.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Technologies
+### Frontend
+- Angular
+- HTML
+- CSS + SCSS
+### Tools and languages
+- TypeScript
+- The Movie Database (TMDB) API
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Live demo
+[Click here to open the app](https://movies-dk.vercel.app/)
